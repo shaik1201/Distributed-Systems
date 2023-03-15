@@ -4,10 +4,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class main {
-    public static void main(String[] args) throws IOException{
-        int count = 2;
-        String[] paths = {"src/input_1.txt", "src/input_2.txt", "src/input_3.txt",
-                "src/input_4.txt", "src/input_5.txt"}; //enter the path to the files you want to run here.
+    public static void main(String[] args) throws IOException {
+        String[] paths = {"src/input_1.txt", "src/input_2.txt", "src/input_3.txt", "src/input_4.txt", "src/input_5.txt"}; //enter the path to the files you want to run here.
         for(String path: paths) {
             ExManager m = new ExManager(path);
             m.read_txt();
@@ -30,9 +28,6 @@ public class main {
                 }
             }
             m.terminate();
-            System.out.println("input number: " + count);
-            count++;
-
         }
     }
 }
