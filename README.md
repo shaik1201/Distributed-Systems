@@ -19,8 +19,8 @@ Copy code
 java DLSR network_topology.txt
 This will start the DLSR algorithm on each node in the network. The program will output the routing table for each node, which will show the shortest path to all other nodes in the network.
 
-Contributing
+Contributing: <br>
 If you would like to contribute to this project, please create a pull request with your proposed changes.
 
-License
+License: <br>
 This project is licensed under the MIT License - see the LICENSE file for details.
