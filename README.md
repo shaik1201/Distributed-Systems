@@ -1,10 +1,10 @@
 **Distributed Link State Routing Algorithm Implementation in Java** <br>
 This project is an implementation of the Distributed Link State Routing (DLSR) algorithm in Java. DLSR is a routing algorithm that uses a distributed database to keep track of the state of links and nodes in a network.
 
-How it works
+How it works: <br>
 The algorithm works by each node broadcasting its own state to all of its neighbors. Each node maintains a database of all of its neighbor's states, and these states are then used to build a graph of the network. Once all of the nodes in the network have received and processed their neighbor's states, each node uses Dijkstra's algorithm to calculate the shortest path to all other nodes in the network.
 
-Getting Started
+Getting Started: <br>
 Clone this repository to your local machine
 Ensure that you have Java installed on your machine
 Open the project in your preferred Java IDE
